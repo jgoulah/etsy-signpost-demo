@@ -1,0 +1,9 @@
+Add in your .bashrc
+  export OAUTH_CONSUMER_KEY='your_key'
+  export OAUTH_CONSUMER_SECRET='your_secret'
+
+to compile:
+  javac -cp commons-codec-1.3.jar:signpost-core-1.2.1.1.jar src/EtsyMain.java
+
+to run:
+  java -cp .:signpost-core-1.2.1.1.jar:commons-codec-1.4.jar:./src/ EtsyMain
